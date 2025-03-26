@@ -1,0 +1,151 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior {
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+#texto-menu-superior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior {
+    background-image: url('./assets/fundo-menu-superior.png');
+    color: aliceblue;
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon {
+    margin: 50px 0px 50px 170px;
+    padding: 10px;
+}
+
+#secao-video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.text-informative {
+    display: flex;
+    align-items: center;
+}
+
+
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video {
+    margin: 60px 5px 50px 185px;
+}
+
+#carrousel {
+    background-color: #247BA0;
+    padding: 50px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#titulo-carrousel {
+    color: white;
+    margin: 25px 0 65px;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+.cards {
+    margin-left: 50px;
+}
+
+#arrow-left {
+    display: none;
+}
+
+#bru {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+.seta:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+   
+}
+
+#titulo-formulario {
+    font-weight: 700;
+    color: #383838;
+    margin: 25px 0px;
+}
+
+input {
+    background: #EAECE5;
+    color: #383838;
+    height: 53px;
+    width: 413px;
+    margin: 25px;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+
+#botao {
+    font-weight: 700;
+    width: 330px;
+    height: 53px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #247BA0;
+    margin: 40px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #318fb8;
+    color: #FFF;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #05103081;
+}
